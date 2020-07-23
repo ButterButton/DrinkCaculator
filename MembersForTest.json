@@ -1,0 +1,25 @@
+{
+	Staffs:
+	[
+		{
+			StaffName:"劉AA",
+			NickName:["小劉","Tim"]
+		},
+		{
+			StaffName:"張BB",
+			NickName:["老張"]
+		},
+		{
+			StaffName:"陳CC",
+			NickName:["Henry","亨利"]
+		},
+		{
+			StaffName:"許DD",
+			NickName:["老許","Boss"]
+		},
+		{
+			StaffName:"何EE",
+			NickName:["小E"]
+		}
+	]
+}

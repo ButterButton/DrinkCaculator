@@ -1,0 +1,2 @@
+GoogleCredential=credentials.json的位置
+CompanyMembers=MembersForTest.json的位置
