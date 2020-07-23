@@ -14,12 +14,6 @@ namespace SheetsQuickstart
     {
         static void Main(string[] args)
         {
-            //MySheet
-            //https://docs.google.com/spreadsheets/d/1VgcGY23GFGHzXK1kSCjT2387o5WK82Npzv8dQeL4qnA/edit
-
-            //取得成員名單
-            //Console.WriteLine("請輸入InitialData.txt的路徑: ");
-            //var Fileaddr = Console.ReadLine();
             var InititalFile = new FileStream("../../InitialData.txt", FileMode.Open, FileAccess.Read);
             var Reader = new StreamReader(InititalFile);
             var GoogleCredentialLocation = Reader.ReadLine().Split('=')[1];
@@ -29,7 +23,7 @@ namespace SheetsQuickstart
 
             // Define request parameters.
             //range "sheet的名稱!格子位置(位置類似座標的概念)"
-            String SpreadSheetID = "1VgcGY23GFGHzXK1kSCjT2387o5WK82Npzv8dQeL4qnA";
+            String SpreadSheetID = "your Sheets ID";
             String Range = "工作表1!B4:G33";
 
             // Create Google Sheets API service.
